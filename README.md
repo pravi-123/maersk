@@ -16,3 +16,13 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## Testing
+
+You can use tools like PostMan to call these APIs
+
+### Available endpoints
+
+/api/bookings/checkAvailable - to check the availability of container
+
+/api/bookings - to book the container
